@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 2.8.11)
 
-add_executable(mergeSort main.cpp)
+add_executable(mergeSort main.cpp
+                         mergeSort.hpp
+                         mergeSort.cpp)
